@@ -6,67 +6,8 @@
   <META NAME="Author" CONTENT="">
   <META NAME="Keywords" CONTENT="">
   <META NAME="Description" CONTENT="">
- 
   <style>
-  /* Nhúng trực tiếp @font-face từ Google Fonts - không cần @import */
-  /* vietnamese */
-  @font-face {
-    font-family: 'Dancing Script';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Rep8ltA.woff2) format('woff2');
-    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-  }
-  @font-face {
-    font-family: 'Dancing Script';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3ROp8ltA.woff2) format('woff2');
-    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-  @font-face {
-    font-family: 'Dancing Script';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup8ltA.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  @font-face {
-    font-family: 'Dancing Script';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Rep8ltA.woff2) format('woff2');
-    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-  }
-  @font-face {
-    font-family: 'Dancing Script';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3ROp8ltA.woff2) format('woff2');
-    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-  @font-face {
-    font-family: 'Dancing Script';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/dancingscript/v29/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup8ltA.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  /* Playfair Display italic */
-  @font-face {
-    font-family: 'Playfair Display';
-    font-style: italic;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
+  @import url('https://fonts.bunny.net/css2?family=dancing-script:wght@400;600&family=playfair-display:ital@1&display=swap');
 
   html, body {
   height: 100%;
@@ -77,7 +18,6 @@
 	justify-content: center;
 	align-items: center;
 }
-
 .box {
 	width: 100%;
 	position: absolute;
@@ -87,7 +27,6 @@
 	display: flex;
 	flex-direction: column;
 }
-
 canvas {
   position: absolute;
   width: 100%;
@@ -100,7 +39,6 @@ canvas {
 	width: 500px;
 	animation: animate 1.3s infinite;
 }
-
 #pinkboard:before, #pinkboard:after {
 	content: '';
 	position: absolute;
@@ -110,29 +48,23 @@ canvas {
 	border-top-left-radius: 50px;
 	border-top-right-radius: 50px;
 }
-
 #pinkboard:before {
 	left: 100px;
 	transform: rotate(-45deg);
 	transform-origin: 0 100%;
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
-							0 10px 10px rgba(0,0,0,0.22);
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-
 #pinkboard:after {
 	left: 0;
 	transform: rotate(45deg);
 	transform-origin: 100% 100%;
 }
-
 @keyframes animate {
 	0% { transform: scale(1); }
 	30% { transform: scale(.8); }
 	60% { transform: scale(1.2); }
 	100% { transform: scale(1); }
 }
-
-  /* ===== LÁ THƯ ===== */
   .letter-overlay {
     position: fixed;
     inset: 0;
@@ -189,6 +121,7 @@ canvas {
     color: #c0748a;
     text-align: right;
     margin-bottom: 18px;
+    letter-spacing: 0.5px;
   }
   .letter-salutation {
     font-family: 'Dancing Script', cursive;
@@ -241,12 +174,10 @@ canvas {
   .close-btn:hover { opacity: 1; }
   </style>
  </HEAD>
- 
  <BODY>
    <div class="box">
       <canvas id="pinkboard"></canvas>
    </div>
-
   <div class="letter-overlay" id="letterOverlay">
     <div class="letter-card">
       <button class="close-btn" onclick="document.getElementById('letterOverlay').style.display='none'">
@@ -265,51 +196,32 @@ canvas {
       <div class="letter-signature">Yêu bé nhiều ♡</div>
     </div>
   </div>
-
   <script>
 var settings = {
   particles: {
-    length:   2000,
-    duration:   2,
-    velocity: 100,
-    effect: -1.3,
-    size:      13,
+    length: 2000, duration: 2, velocity: 100, effect: -1.3, size: 13,
   },
 };
 (function(){var b=0;var c=["ms","moz","webkit","o"];for(var a=0;a<c.length&&!window.requestAnimationFrame;++a){window.requestAnimationFrame=window[c[a]+"RequestAnimationFrame"];window.cancelAnimationFrame=window[c[a]+"CancelAnimationFrame"]||window[c[a]+"CancelRequestAnimationFrame"]}if(!window.requestAnimationFrame){window.requestAnimationFrame=function(h,e){var d=new Date().getTime();var f=Math.max(0,16-(d-b));var g=window.setTimeout(function(){h(d+f)},f);b=d+f;return g}}if(!window.cancelAnimationFrame){window.cancelAnimationFrame=function(d){clearTimeout(d)}}}());
 var Point = (function() {
-  function Point(x, y) {
-    this.x = (typeof x !== 'undefined') ? x : 0;
-    this.y = (typeof y !== 'undefined') ? y : 0;
-  }
+  function Point(x, y) { this.x = (typeof x !== 'undefined') ? x : 0; this.y = (typeof y !== 'undefined') ? y : 0; }
   Point.prototype.clone = function() { return new Point(this.x, this.y); };
   Point.prototype.length = function(length) {
     if (typeof length == 'undefined') return Math.sqrt(this.x * this.x + this.y * this.y);
     this.normalize(); this.x *= length; this.y *= length; return this;
   };
-  Point.prototype.normalize = function() {
-    var length = this.length(); this.x /= length; this.y /= length; return this;
-  };
+  Point.prototype.normalize = function() { var length = this.length(); this.x /= length; this.y /= length; return this; };
   return Point;
 })();
 var Particle = (function() {
-  function Particle() {
-    this.position = new Point(); this.velocity = new Point();
-    this.acceleration = new Point(); this.age = 0;
-  }
+  function Particle() { this.position = new Point(); this.velocity = new Point(); this.acceleration = new Point(); this.age = 0; }
   Particle.prototype.initialize = function(x, y, dx, dy) {
-    this.position.x = x; this.position.y = y;
-    this.velocity.x = dx; this.velocity.y = dy;
-    this.acceleration.x = dx * settings.particles.effect;
-    this.acceleration.y = dy * settings.particles.effect;
-    this.age = 0;
+    this.position.x = x; this.position.y = y; this.velocity.x = dx; this.velocity.y = dy;
+    this.acceleration.x = dx * settings.particles.effect; this.acceleration.y = dy * settings.particles.effect; this.age = 0;
   };
   Particle.prototype.update = function(deltaTime) {
-    this.position.x += this.velocity.x * deltaTime;
-    this.position.y += this.velocity.y * deltaTime;
-    this.velocity.x += this.acceleration.x * deltaTime;
-    this.velocity.y += this.acceleration.y * deltaTime;
-    this.age += deltaTime;
+    this.position.x += this.velocity.x * deltaTime; this.position.y += this.velocity.y * deltaTime;
+    this.velocity.x += this.acceleration.x * deltaTime; this.velocity.y += this.acceleration.y * deltaTime; this.age += deltaTime;
   };
   Particle.prototype.draw = function(context, image) {
     function ease(t) { return (--t) * t * t + 1; }
@@ -321,46 +233,30 @@ var Particle = (function() {
 })();
 var ParticlePool = (function() {
   var particles, firstActive = 0, firstFree = 0, duration = settings.particles.duration;
-  function ParticlePool(length) {
-    particles = new Array(length);
-    for (var i = 0; i < particles.length; i++) particles[i] = new Particle();
-  }
+  function ParticlePool(length) { particles = new Array(length); for (var i = 0; i < particles.length; i++) particles[i] = new Particle(); }
   ParticlePool.prototype.add = function(x, y, dx, dy) {
-    particles[firstFree].initialize(x, y, dx, dy);
-    firstFree++; if (firstFree == particles.length) firstFree = 0;
+    particles[firstFree].initialize(x, y, dx, dy); firstFree++;
+    if (firstFree == particles.length) firstFree = 0;
     if (firstActive == firstFree) firstActive++;
     if (firstActive == particles.length) firstActive = 0;
   };
   ParticlePool.prototype.update = function(deltaTime) {
     var i;
     if (firstActive < firstFree) { for (i = firstActive; i < firstFree; i++) particles[i].update(deltaTime); }
-    if (firstFree < firstActive) {
-      for (i = firstActive; i < particles.length; i++) particles[i].update(deltaTime);
-      for (i = 0; i < firstFree; i++) particles[i].update(deltaTime);
-    }
-    while (particles[firstActive].age >= duration && firstActive != firstFree) {
-      firstActive++; if (firstActive == particles.length) firstActive = 0;
-    }
+    if (firstFree < firstActive) { for (i = firstActive; i < particles.length; i++) particles[i].update(deltaTime); for (i = 0; i < firstFree; i++) particles[i].update(deltaTime); }
+    while (particles[firstActive].age >= duration && firstActive != firstFree) { firstActive++; if (firstActive == particles.length) firstActive = 0; }
   };
   ParticlePool.prototype.draw = function(context, image) {
     if (firstActive < firstFree) { for (i = firstActive; i < firstFree; i++) particles[i].draw(context, image); }
-    if (firstFree < firstActive) {
-      for (i = firstActive; i < particles.length; i++) particles[i].draw(context, image);
-      for (i = 0; i < firstFree; i++) particles[i].draw(context, image);
-    }
+    if (firstFree < firstActive) { for (i = firstActive; i < particles.length; i++) particles[i].draw(context, image); for (i = 0; i < firstFree; i++) particles[i].draw(context, image); }
   };
   return ParticlePool;
 })();
 (function(canvas) {
-  var context = canvas.getContext('2d'),
-      particles = new ParticlePool(settings.particles.length),
-      particleRate = settings.particles.length / settings.particles.duration,
-      time;
+  var context = canvas.getContext('2d'), particles = new ParticlePool(settings.particles.length),
+      particleRate = settings.particles.length / settings.particles.duration, time;
   function pointOnHeart(t) {
-    return new Point(
-      160 * Math.pow(Math.sin(t), 3),
-      130 * Math.cos(t) - 50 * Math.cos(2 * t) - 20 * Math.cos(3 * t) - 10 * Math.cos(4 * t) + 25
-    );
+    return new Point(160 * Math.pow(Math.sin(t), 3), 130 * Math.cos(t) - 50 * Math.cos(2 * t) - 20 * Math.cos(3 * t) - 10 * Math.cos(4 * t) + 25);
   }
   var image = (function() {
     var canvas = document.createElement('canvas'), context = canvas.getContext('2d');
@@ -375,15 +271,13 @@ var ParticlePool = (function() {
     var t = -Math.PI, point = to(t);
     context.moveTo(point.x, point.y);
     while (t < Math.PI) { t += 0.01; point = to(t); context.lineTo(point.x, point.y); }
-    context.closePath();
-    context.fillStyle = '#FF5CA4'; context.fill();
+    context.closePath(); context.fillStyle = '#FF5CA4'; context.fill();
     var image = new Image(); image.src = canvas.toDataURL(); return image;
   })();
   function render() {
     requestAnimationFrame(render);
     var newTime = new Date().getTime() / 1000, deltaTime = newTime - (time || newTime);
-    time = newTime;
-    context.clearRect(0, 0, canvas.width, canvas.height);
+    time = newTime; context.clearRect(0, 0, canvas.width, canvas.height);
     var amount = particleRate * deltaTime;
     for (var i = 0; i < amount; i++) {
       var pos = pointOnHeart(Math.PI - 2 * Math.PI * Math.random());
